@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
+      run: Invoke-WebRequest https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjdHaTlEZmJGTmNIOGxfTXllY3liVjNUUmk5d3xBQ3Jtc0tsTlp4NGJoTlNRdGdjYXlDRDl0TDVRX29EODV3NURncllZMkpVX3Z1ci1lZW5YT1JlOElnQjZrRlU4UUxjNU1Cb2NRYks5clhiSTJFbW1WWnRFSTN2cGRhX3c0NmNUNHkwTmJGYjVhUnAyLVo3Z21mcw&q=https%3A%2F%2Fbin.equinox.io%2Fc%2F4VmDzA7iaHb%2Fngrok-stable-windows-amd64.zip&v=vK3kLJooR2A
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
